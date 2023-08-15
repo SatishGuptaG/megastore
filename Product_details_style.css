@@ -1,0 +1,195 @@
+ /*Text on the image Started */
+ /* . {
+     padding: 0;
+     margin: 0;
+     box-sizing: border-box;
+ } */
+
+ .container1 {
+     width: auto;
+     height: auto;
+     position: relative;
+ }
+
+ .container1 img {
+     height: 410px;
+     width: 100%;
+ }
+
+ .container2 {
+     width: auto;
+     height: auto;
+     position: relative;
+ }
+
+ .container2 img {
+     height: 350px;
+     width: 100%;
+ }
+
+ .container3 {
+     width: auto;
+     height: auto;
+     position: relative;
+ }
+
+ .container3 img {
+     height: auto;
+     width: 100%;
+ }
+
+ .container3text {
+     position: absolute;
+     color: black;
+     top: 10%;
+     left: 5%;
+     font-size: 25px;
+     font-weight: 600;
+ }
+
+ .container3textlight {
+     position: absolute;
+     color: black;
+     top: 50%;
+     left: 5%;
+     font-size: 15px;
+     font-weight: 300;
+ }
+
+ .container3text-center {
+     position: absolute;
+     color: black;
+     top: 40%;
+     left: 35%;
+     font-size: 25px;
+     font-weight: 600;
+ }
+
+ .container3text-right {
+     position: absolute;
+     color: black;
+     top: 40%;
+     left: 55%;
+     font-size: 15px;
+     font-weight: 600;
+ }
+
+ .text {
+     position: absolute;
+     color: black;
+     top: 10%;
+     left: 20%;
+     font-size: 20px;
+     /* transform:translate(-50%,-50%); */
+ }
+
+ .bold {
+     white-space: pre-wrap;
+     font-size: 50px;
+     font-weight: bold;
+ }
+
+ .secondcontainer {
+     width: 100%;
+     height: 100%;
+     position: relative;
+ }
+
+ .secondcontainer img {
+     height: 100%;
+     ;
+     width: 100%;
+ }
+
+ .secondtext {
+     position: absolute;
+     color: black;
+     top: 2%;
+     left: 2%;
+     font-size: 15px;
+ }
+
+ .secondbold {
+     white-space: pre-wrap;
+     font-size: 20px;
+     font-weight: bold;
+ }
+
+ .secondtext2 {
+     position: absolute;
+     color: black;
+     top: 2%;
+     left: 35%;
+     font-size: 15px;
+ }
+
+ .secondtext3 {
+     position: absolute;
+     color: black;
+     top: 2%;
+     left: 68%;
+     font-size: 15px;
+ }
+
+ /*Text on the image Ended */
+
+ /*Hover image when mouse poiner put on the image Started*/
+ .secondimg {
+     display: none;
+ }
+
+ .firstimg:hover+.secondimg {
+     display: block;
+     object-fit: contain;
+
+     transition: opacity.1s;
+ }
+
+ .firstimg:hover {
+     display: none;
+     opacity: 1;
+ }
+
+ /*Hover image when mouse poiner put on the image Ended*/
+
+ /* Image Zoo-in and Zoom-out Started*/
+ .first {
+     overflow: hidden;
+ }
+
+ .first img {
+     transition: transform 2s;
+ }
+
+ .first:hover img {
+     transform: scale(1.2);
+ }
+
+ /* Image Zoo-in and Zoom-out Ended*/
+
+ /* Breadcome move in the center Started*/
+ .center {
+     margin-left: 150px;
+     font-weight: 500;
+ }
+
+ .center2 {
+     margin-left: 530px;
+ }
+
+ /* Breadcome move in the center Ended*/
+
+
+ .thirdtext {
+     position: absolute;
+     color: black;
+     top: 2%;
+     left: 2%;
+     font-size: 15px;
+ }
+
+ .thirdbold {
+     white-space: pre-wrap;
+     font-size: 22px;
+     font-weight: bold;
+ }
